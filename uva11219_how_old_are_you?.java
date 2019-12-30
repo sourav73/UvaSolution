@@ -1,4 +1,4 @@
-//Problem link: 
+//Problem link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2160
 import java.util.Scanner;
 
 public class Main {
@@ -29,7 +29,6 @@ public class Main {
         Scanner in = new Scanner(System.in);
         int testCase = in.nextInt();
         for(int i=1;i<=testCase;i++){
-            System.out.println();
             String currentDate = in.next();
             String birthDate = in.next();
             System.out.println("Case #"+i+":"+age(currentDate,birthDate));
